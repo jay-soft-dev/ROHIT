@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rohit Anil Shinde | Mechanical Engineering Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body class="bg-[#0c0e12] text-stone-100 antialiased selection:bg-amber-400 selection:text-stone-950 min-h-screen overflow-x-hidden">
+
+    <!-- Subtle CAD Grid Overlay -->
+    <div class="cad-grid fixed inset-0 pointer-events-none z-0"></div>
+
+    <!-- Top Spec Ticker Bar -->
+    <div class="relative z-20 border-b border-stone-800/80 bg-[#11141a]/90 px-4 py-2 text-[11px] font-mono text-stone-400">
+        <div class="max-w-6xl mx-auto flex flex-wrap items-center justify-between gap-2">
+            <div class="flex items-center gap-2">
+                <span class="inline-block w-2 h-2 rounded-full bg-amber-400"></span>
+                <span>SPEC SHEET // MECH-CAD-MFG</span>
+            </div>
+            <div class="flex items-center gap-4">
+                <span>CHAKAN, PUNE • 410501</span>
+                <span class="text-amber-400">OPEN TO INTERNSHIPS &amp; ROLES</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Toast Alert -->
+    <div id="toast" class="fixed bottom-6 right-6 z-50 translate-y-16 opacity-0 transition-all duration-300 px-4 py-2.5 rounded-lg bg-amber-400 text-stone-950 font-semibold text-xs font-mono shadow-2xl">
+        Copied
+    </div>
+
+    <!-- Main Navbar -->
+    <header class="sticky top-0 z-40 backdrop-blur-xl bg-[#0c0e12]/80 border-b border-stone-800/70">
+        <div class="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
+            <a href="#top" class="flex items-center gap-2.5 group">
+                <span class="w-9 h-9 rounded-lg border border-amber-400/50 bg-amber-400/10 flex items-center justify-center font-mono font-bold text-amber-400 text-sm group-hover:bg-amber-400 group-hover:text-stone-950 transition">
+                    RS
+                </span>
+                <div>
+                    <div class="font-bold tracking-tight text-stone-100 leading-none">Rohit Shinde</div>
+                    <div class="text-[10px] font-mono text-stone-400 mt-1">Mechanical Engineer</div>
+                </div>
+            </a>
+
+            <nav class="hidden md:flex items-center gap-7 text-xs font-mono uppercase tracking-wider text-stone-400">
+                <a href="#profile" class="hover:text-amber-400 transition">Profile</a>
+                <a href="#journey" class="hover:text-amber-400 transition">Journey</a>
+                <a href="#work" class="hover:text-amber-400 transition">Work &amp; Exp</a>
+                <a href="#skills" class="hover:text-amber-400 transition">Skills</a>
+                <a href="#contact" class="hover:text-amber-400 transition">Contact</a>
+            </nav>
+
+            <a href="#contact" class="px-4 py-2 rounded-lg bg-amber-400 hover:bg-amber-300 text-stone-950 font-mono text-xs font-bold transition">
+                Connect
+            </a>
+        </div>
+    </header>
+
+    <main id="top" class="relative z-10 max-w-6xl mx-auto px-6 py-12 space-y-24">
+
+        <!-- Asymmetric Editorial / Blueprint Hero -->
+        <section id="profile" class="grid lg:grid-cols-12 gap-10 items-center pt-2">
+            <div class="lg:col-span-7 space-y-6">
+                <div class="inline-flex items-center gap-2 px-3 py-1 rounded border border-stone-700 bg-stone-900/80 text-xs font-mono text-amber-300">
+                    <span>01 /</span>
+                    <span>DESIGN • R&amp;D • MANUFACTURING • GOVT &amp; PSU</span>
+                </div>
+
+                <h1 class="text-4xl sm:text-5xl lg:text-6xl font-black tracking-tight leading-[1.08]">
+                    Precision in Motion, <br />
+                    <span class="text-amber-400">Built for Real Industry.</span>
+                </h1>
+
+                <p class="text-stone-300/90 text-base sm:text-lg leading-relaxed max-w-2xl">
+                    I&apos;m <strong class="text-white font-semibold">Rohit Anil Shinde</strong>, a second-year B.E. Mechanical Engineering student with an MSBTE Diploma background and practical shop-floor training. I focus on mechanical design, industrial equipment understanding, and structured engineering execution].
+                </p>
+
+                <div class="flex flex-wrap gap-3 pt-1">
+                    <a href="#work" class="px-6 py-3 rounded-lg bg-amber-400 hover:bg-amber-300 text-stone-950 font-bold text-sm transition">
+                        Explore Work
+                    </a>
+                    <button type="button" data-copy="rohitshinde888800@gmail.com" class="copy-btn px-5 py-3 rounded-lg border border-stone-700 bg-stone-900/70 hover:border-amber-400/60 text-stone-200 font-mono text-xs transition">
+                        Copy Email
+                    </button>
+                </div>
+            </div>
+
+            <!-- Framed Portrait Card -->
+            <div class="lg:col-span-5 flex justify-center">
+                <div class="relative w-72 sm:w-80 rounded-2xl border border-stone-700/80 bg-[#12161d] p-3 shadow-2xl">
+                    <div class="flex items-center justify-between text-[10px] font-mono text-stone-400 px-1 pb-2">
+                        <span>FIG 1.0 // PORTRAIT</span>
+                        <span class="text-amber-400">ACTIVE</span>
+                    </div>
+                    <div class="aspect-square rounded-xl overflow-hidden border border-stone-800 bg-stone-900">
+                        <img src="pic.jpeg" alt="Rohit Shinde" class="w-full h-full object-cover object-top" />
+                    </div>
+                    <div class="pt-3 px-1 flex items-center justify-between text-xs">
+                        <div>
+                            <div class="font-bold text-stone-100">Rohit Anil Shinde</div>
+                            <div class="text-stone-400 font-mono text-[11px]">B.E. Mechanical (2nd Yr)</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Interactive Journey Tabs (Education & Milestones) -->
+        <section id="journey" class="space-y-8">
+            <div class="flex flex-col sm:flex-row sm:items-end justify-between gap-4 border-b border-stone-800 pb-5">
+                <div>
+                    <div class="text-xs font-mono text-amber-400 uppercase tracking-widest">02 / Academic &amp; Growth</div>
+                    <h2 class="text-2xl sm:text-3xl font-extrabold mt-1">Engineering Journey</h2>
+                </div>
+
+                <div class="inline-flex rounded-lg border border-stone-800 bg-stone-900/80 p-1 font-mono text-xs" id="journey-tabs">
+                    <button type="button" data-tab="be" class="journey-tab active px-3.5 py-1.5 rounded-md bg-amber-400 text-stone-950 font-bold">B.E. (Current)</button>
+                    <button type="button" data-tab="diploma" class="journey-tab px-3.5 py-1.5 rounded-md text-stone-400 hover:text-stone-100">Diploma</button>
+                    <button type="button" data-tab="ssc" class="journey-tab px-3.5 py-1.5 rounded-md text-stone-400 hover:text-stone-100">SSC (10th)</button>
+                </div>
+            </div>
+
+            <div class="rounded-2xl border border-stone-800 bg-[#11141a]/90 p-6 sm:p-8" id="journey-panel">
+                <!-- Populated dynamically via script.js -->
+            </div>
+        </section>
+
+        <!-- Work, Project & Internship Split -->
+        <section id="work" class="space-y-8">
+            <div class="border-b border-stone-800 pb-5">
+                <div class="text-xs font-mono text-amber-400 uppercase tracking-widest">03 / Practical Exposure</div>
+                <h2 class="text-2xl sm:text-3xl font-extrabold mt-1">Projects &amp; Industrial Training</h2>
+            </div>
+
+            <div class="grid md:grid-cols-2 gap-6">
+                <article class="rounded-2xl border border-stone-800 bg-[#11141a]/85 p-6 hover:border-amber-400/50 transition space-y-4">
+                    <div class="flex items-center justify-between text-xs font-mono">
+                        <span class="px-2.5 py-1 rounded bg-amber-400/10 text-amber-300 border border-amber-400/20">PROJECT • 2026</span>
+                        <span class="text-stone-500">FLUID &amp; STRUCTURAL</span>
+                    </div>
+                    <h3 class="text-xl font-bold text-white">Hydraulic Press Machine</h3>
+                    <p class="text-stone-400 text-sm leading-relaxed">
+                        Designed and executed a hydraulic press machine model focused on hydraulic force transmission, structural rigidity, and practical industrial pressing applications].
+                    </p>
+                </article>
+
+                <article class="rounded-2xl border border-stone-800 bg-[#11141a]/85 p-6 hover:border-amber-400/50 transition space-y-4">
+                    <div class="flex items-center justify-between text-xs font-mono">
+                        <span class="px-2.5 py-1 rounded bg-stone-800 text-stone-200 border border-stone-700">INTERNSHIP • 3 MONTHS</span>
+                        <span class="text-stone-500">BHOSARI, PUNE</span>
+                    </div>
+                    <h3 class="text-xl font-bold text-white">Mapson India Pvt Ltd</h3>
+                    <p class="text-stone-400 text-sm leading-relaxed">
+                        Completed a 3-month industrial internship gaining direct exposure to manufacturing workflows, equipment maintenance, and shop-floor discipline ].
+                    </p>
+                </article>
+            </div>
+        </section>
+
+        <!-- Skills Matrix -->
+        <section id="skills" class="space-y-8">
+            <div class="border-b border-stone-800 pb-5">
+                <div class="text-xs font-mono text-amber-400 uppercase tracking-widest">04 / Toolkit</div>
+                <h2 class="text-2xl sm:text-3xl font-extrabold mt-1">Technical &amp; Digital Capabilities</h2>
+            </div>
+
+            <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
+                <div class="p-4 rounded-xl border border-stone-800 bg-[#11141a]/70">
+                    <div class="text-[10px] font-mono text-amber-400 uppercase">CAD Modeling</div>
+                    <div class="font-bold text-stone-100 mt-1">AutoCAD &amp; CATIA</div>
+                </div>
+                <div class="p-4 rounded-xl border border-stone-800 bg-[#11141a]/70">
+                    <div class="text-[10px] font-mono text-amber-400 uppercase">Mobility &amp; Metrology</div>
+                    <div class="font-bold text-stone-100 mt-1">EV Maintenance &amp; Measuring Tools</div>
+                </div>
+                <div class="p-4 rounded-xl border border-stone-800 bg-[#11141a]/70">
+                    <div class="text-[10px] font-mono text-amber-400 uppercase">Core Domain</div>
+                    <div class="font-bold text-stone-100 mt-1">Mechanical Engineering</div>
+                </div>
+                <div class="p-4 rounded-xl border border-stone-800 bg-[#11141a]/70">
+                    <div class="text-[10px] font-mono text-amber-400 uppercase">Reporting &amp; Office</div>
+                    <div class="font-bold text-stone-100 mt-1">Advance Excel, MS Office, MSCIT</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Strip -->
+        <section id="contact" class="rounded-2xl border border-amber-400/30 bg-gradient-to-br from-[#151922] to-[#0d1015] p-8 sm:p-10">
+            <div class="flex flex-col lg:flex-row lg:items-center justify-between gap-6">
+                <div class="space-y-2 max-w-xl">
+                    <div class="text-xs font-mono text-amber-400 uppercase tracking-widest">05 / Direct Contact</div>
+                    <h2 class="text-2xl sm:text-3xl font-extrabold">Let&apos;s Work Together</h2>
+                    <p class="text-stone-400 text-sm">
+                        Medankarwadi, Chakan, Pune - 410501. Reach out for engineering internships, technical roles, or discussions.
+                    </p>
+                </div>
+
+                <div class="flex flex-wrap gap-3">
+                    <a href="mailto:rohitshinde888800@gmail.com" class="px-5 py-3 rounded-lg bg-amber-400 hover:bg-amber-300 text-stone-950 font-bold text-xs sm:text-sm transition">
+                        rohitshinde888800@gmail.com
+                    </a>
+                    <a href="tel:7741098898" class="px-5 py-3 rounded-lg border border-stone-700 bg-stone-900 hover:border-amber-400 text-stone-100 font-mono text-xs sm:text-sm transition">
+                        +91 7741098898
+                    </a>
+                    <button type="button" data-copy="+917741098898" class="copy-btn px-4 py-3 rounded-lg border border-stone-800 bg-stone-950 hover:border-amber-400 text-stone-300 font-mono text-xs transition">
+                        Copy No.
+                    </button>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="relative z-10 border-t border-stone-800/80 py-7 text-center text-xs font-mono text-stone-500">
+        &copy; 2026 Rohit Anil Shinde • Mechanical Engineering Portfolio
+    </footer>
+
+    <script src="script.js"></script>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+</body>
+</html>
