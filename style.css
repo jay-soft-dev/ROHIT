@@ -1,0 +1,31 @@
+/* Blueprint subtle engineering grid */
+.cad-grid {
+    background-image:
+        linear-gradient(to right, rgba(148, 163, 184, 0.04) 1px, transparent 1px),
+        linear-gradient(to bottom, rgba(148, 163, 184, 0.04) 1px, transparent 1px);
+    background-size: 32px 32px;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #0c0e12;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #292f3a;
+    border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #fbbf24;
+}
+
+.journey-tab.active {
+    background-color: #fbbf24;
+    color: #0c0a09;
+    font-weight: 700;
+}
